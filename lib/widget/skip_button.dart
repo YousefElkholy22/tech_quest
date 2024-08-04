@@ -7,15 +7,14 @@ class SkipButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return  MaterialButton(onPressed: ()
-    {
-      Navigator.of(context).pushNamed('RegestrScreeen');
-    },child:
-          const Text('Skip',style: 
-           TextStyle(
-            color: myGray,
-            fontSize: 18
-
-           ),),);
+    return MaterialButton(
+      onPressed: () {
+        Navigator.of(context).pushNamed('RegestrScreeen');
+      },
+      child: const Text(
+        'Skip',
+        style: TextStyle(color: myGray, fontSize: 18),
+      ),
+    );
   }
 }

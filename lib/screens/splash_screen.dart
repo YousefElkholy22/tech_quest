@@ -25,18 +25,13 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
     return  Scaffold(
-      backgroundColor:myBlue,
+      backgroundColor:myWhithe,
       body:  Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-               Text('TechQuest',
-               style:  TextStyle(
-                 color: Colors.white,
-                 fontSize: 50
-
-
-               ),)
+               
+               Image.asset('assets/images/logo.jpg',width: 300,height: 300,)
           ],
         ),
       )

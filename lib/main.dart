@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:tech_quest/screens/splash_screen.dart';
-
 import 'screens/on_boarding_view.dart';
 import 'screens/regestration.dart';
+import 'screens/splash_screen.dart';
 
 void main() {
   runApp(const MyApp());

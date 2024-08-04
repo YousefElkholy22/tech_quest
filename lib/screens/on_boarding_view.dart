@@ -50,7 +50,9 @@ class _OnBoardingViewState extends State<OnBoardingView> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: myWhithe,
       appBar: AppBar(
+        backgroundColor: myWhithe,
         actions: const [
           SkipButton(),
         ],
